@@ -1,132 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-23T04:06:27 IST" name="Suite" finished-at="2026-05-23T04:07:35 IST" duration-ms="67816">
+  <suite started-at="2026-05-25T03:54:25 IST" name="Default suite" finished-at="2026-05-25T03:55:21 IST" duration-ms="55761">
     <groups>
-      <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" name="loginErrorValidation" class="veenarecordsinc.ErrorValidationsTest"/>
-      </group> <!-- ErrorHandling -->
-      <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" name="submitOrder" class="veenarecordsinc.SubmitOrderTest"/>
-      </group> <!-- Purchase -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-05-23T04:06:27 IST" name="Error Validations Test" finished-at="2026-05-23T04:07:15 IST" duration-ms="47651">
-      <class name="veenarecordsinc.ErrorValidationsTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:06:28 IST" name="LaunchApplication" finished-at="2026-05-23T04:06:37 IST" duration-ms="9353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:06:37 IST" name="loginErrorValidation" finished-at="2026-05-23T04:06:38 IST" duration-ms="1481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:06:38 IST" name="tearDown" finished-at="2026-05-23T04:06:39 IST" duration-ms="955" status="PASS">
+    <test started-at="2026-05-25T03:54:25 IST" name="Default test" finished-at="2026-05-25T03:55:21 IST" duration-ms="55761">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:54:25 IST" name="setUpClass" finished-at="2026-05-25T03:54:26 IST" duration-ms="637" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginErrorValidation status=SUCCESS method=ErrorValidationsTest.loginErrorValidation()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@3a3ed300]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:06:40 IST" name="LaunchApplication" finished-at="2026-05-23T04:06:41 IST" duration-ms="1895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:06:41 IST" name="productErrorValidation" finished-at="2026-05-23T04:07:12 IST" duration-ms="30610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe]" started-at="2026-05-23T04:07:12 IST" name="tearDown" finished-at="2026-05-23T04:07:15 IST" duration-ms="3081" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:54:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T03:54:30 IST" duration-ms="4251" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productErrorValidation status=SUCCESS method=ErrorValidationsTest.productErrorValidation()[pri:0, instance:veenarecordsinc.ErrorValidationsTest@5efa40fe] output={null}]]]>
+                <![CDATA["Negative test to submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Error Validation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- veenarecordsinc.ErrorValidationsTest -->
-    </test> <!-- Error Validations Test -->
-    <test started-at="2026-05-23T04:06:27 IST" name="Submit Order Test" finished-at="2026-05-23T04:07:35 IST" duration-ms="67816">
-      <class name="veenarecordsinc.SubmitOrderTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:06:28 IST" name="LaunchApplication" finished-at="2026-05-23T04:06:37 IST" duration-ms="8951" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:06:37 IST" name="submitOrder" data-provider="getData" finished-at="2026-05-23T04:06:53 IST" duration-ms="16198" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:54:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T03:54:35 IST" duration-ms="4764" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=HareRam@123, email=veenarecordsinc@gmail.com, productName=ZARA COAT 3}]]>
+                <![CDATA["Negative test to submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Error Validation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:06:53 IST" name="tearDown" finished-at="2026-05-23T04:06:57 IST" duration-ms="4320" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:54:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T03:54:52 IST" duration-ms="17660" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640] output={null}]]]>
+                <![CDATA["Positive test to submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:06:57 IST" name="LaunchApplication" finished-at="2026-05-23T04:07:02 IST" duration-ms="4714" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:07:02 IST" name="submitOrder" data-provider="getData" finished-at="2026-05-23T04:07:28 IST" duration-ms="25797" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:54:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T03:55:21 IST" duration-ms="28320" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=RadhaRani@123, email=prateekverma585@gmail.com, productName=ADIDAS ORIGINAL}]]>
+                <![CDATA["Positive test to submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:07:28 IST" name="tearDown" finished-at="2026-05-23T04:07:28 IST" duration-ms="485" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@6cf0e0ba]" started-at="2026-05-25T03:55:21 IST" name="tearDownClass" finished-at="2026-05-25T03:55:21 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:07:28 IST" name="LaunchApplication" finished-at="2026-05-23T04:07:32 IST" duration-ms="4121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:07:32 IST" name="OrderHistoryTest" finished-at="2026-05-23T04:07:34 IST" depends-on-methods="veenarecordsinc.SubmitOrderTest.submitOrder" duration-ms="1128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640]" started-at="2026-05-23T04:07:34 IST" name="tearDown" finished-at="2026-05-23T04:07:35 IST" duration-ms="1762" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=OrderHistoryTest status=SUCCESS method=SubmitOrderTest.OrderHistoryTest()[pri:0, instance:veenarecordsinc.SubmitOrderTest@5b799640] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- veenarecordsinc.SubmitOrderTest -->
-    </test> <!-- Submit Order Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
