@@ -1,0 +1,13 @@
+# Test Reports
+test-output/
+reports/
+
+# Build folders
+target/
+*.class
+
+# IDE specific folders
+.idea/
+.settings/
+.classpath
+.project
